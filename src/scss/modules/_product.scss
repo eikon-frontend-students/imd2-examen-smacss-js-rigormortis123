@@ -1,0 +1,26 @@
+.product-card {
+  background-color: var(--green);
+  text-align: center;
+  color: var(--dark-blue);
+  padding: 0px 40px 20px;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+
+.product-card i,
+.product-card p,
+.product-card h3 {
+  padding-top: 20px;
+}
+
+.product-hidden-text {
+  display: none;
+}
+
+.product-hidden-text.is-active {
+  display: block;
+}
+
+.product-card.onions.is-active {
+  background-color: var(--red);
+}

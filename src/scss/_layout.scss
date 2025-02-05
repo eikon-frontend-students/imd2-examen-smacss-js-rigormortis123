@@ -1,5 +1,15 @@
 .l-header {
   background: var(--dark-blue);
   color: white;
+  cursor: pointer;
+}
+
+.l-flavors {
+  margin-top: 60px;
   margin-bottom: 60px;
+}
+
+.l-footer {
+  background: var(--light-blue);
+  padding: 40px 52px;
 }
