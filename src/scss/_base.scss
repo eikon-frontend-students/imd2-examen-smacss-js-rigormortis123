@@ -1,0 +1,24 @@
+:root {
+  --dark-blue: #005564;
+  --light-blue: #c0d9d9;
+  --green: #a0d187;
+  --red: #cf9697;
+  --yellow: #fce757;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
