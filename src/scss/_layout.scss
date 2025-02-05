@@ -2,6 +2,12 @@
   background: var(--dark-blue);
   color: white;
   cursor: pointer;
+  transition: all 150ms linear;
+}
+
+.l-header.is-active {
+  background: var(--yellow);
+  color: var(--dark-blue);
 }
 
 .l-flavors {
